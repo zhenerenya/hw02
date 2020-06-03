@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
 
 int main(){
-	string name;
-	cin>>name;
-	cout<<"Hello world from "<<name<<endl;
+	//имя пользователя
+	std::string name;
+	std::cin>>name;
+	//вывод обращения
+	std::cout<<"Hello world from "<<name<<std::endl;
 	return 0;
 }
