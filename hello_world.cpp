@@ -3,10 +3,10 @@
 
 
 int main(){
-	//имя пользователя
+	//username
 	std::string name;
 	std::cin>>name;
-	//вывод обращения
+	//write
 	std::cout<<"Hello world from "<<name<<std::endl;
 	return 0;
 }
